@@ -164,12 +164,12 @@ int main()
             x0[i]=x1[i];
         }
     }while (Er>erro || Ex>erro);
-		free(A);
+    free(A);
     free(b);
     free(x0);
     free(x1);
     free(aux);
-		free(ErroX);
-    free(ErrorR);
+    free(ErroX);
+    free(ErroR);
     return 0;
 }
